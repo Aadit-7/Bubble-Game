@@ -2,7 +2,6 @@ let ranNum = 0;
 let timmer = 60;
 let score = 0;
 
-alert("Score 320 to win");
 let lowerPannel = document.querySelector(".lowerPannel");
 lowerPannel.addEventListener("click", (event) => {
   let clickedBubble = Number(event.target.textContent);
